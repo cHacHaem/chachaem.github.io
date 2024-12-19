@@ -1,0 +1,55 @@
+@font-face {
+  font-family: retro-font;
+  src: url("https://cdn.glitch.global/9e4c7eb7-23b2-40d4-a4e2-de43f02bf3a3/western-traintops.ttf?v=1702320894619");
+}
+.fun {
+  color: maroon;
+}
+.fun:hover {
+  font-size: 20px;
+  color: green;
+}
+.spacing {
+  margin: 50px;
+}
+.emory:hover {
+  color: #34ebd5;
+}
+.description {
+  color: #de55fa;
+}
+.mouse_trap_button {
+  text-decoration: none;
+  border-radius: 25px;
+  background: maroon;
+  position: relative;
+  border: 0;
+  border-radius: 0.5em;
+  box-shadow: 0px 1px 2px;
+  cursor: grabbing;
+  padding: 5px 5px;
+  color: red;
+}
+.mouse_trap_button:hover {
+  background: green;
+  top: 2px;
+  left: 1px;
+  box-shadow: none;
+}
+.title {
+  color: #04e09b;
+  font-size: 80px;
+  font-weight: 10px;
+}
+.caution {
+  color: #dde004;
+}
+.caution:hover {
+  trigger: jumpScare;
+  color: red;
+}
+body {
+  background-color: #0443e0;
+  color: #de55fa;
+  font-family: retro-font;
+}
