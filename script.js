@@ -13,3 +13,14 @@ caution.addEventListener("click", () => {
   body.style.background = "";
 }, 5000);
 });
+function searchText(input, data) {
+    const query = input.toLowerCase();
+    return data.filter(item => item.toLowerCase().includes(query));
+}
+
+// Example usage
+const data = ["Basketball Stars", "Baseball Stars", "Soccer Legends", "Tennis Champions"];
+const input = "bas";
+
+const results = searchText(input, data);
+console.log(results); 
